@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'biblioteca.wsgi.application'
 DATABASES = { 
    'default': { 
        'ENGINE': 'django.db.backends.mysql', 
-       'NAME': BASE_DIR /'dados.sql', 
+       'NAME': 'dbbiblioteca', 
        'USER': 'root', 
        'PASSWORD': 'root', 
-       'HOST': 'localhost', 
+       'HOST': '/run/mysqld/mysqld.sock', 
        'PORT': '3306', 
        'OPTIONS': { 
            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'" 
