@@ -94,7 +94,7 @@ DATABASES = {
        'NAME': 'dbbiblioteca', 
        'USER': 'root', 
        'PASSWORD': 'root', 
-       'HOST': '/run/mysqld/mysqld.sock', 
+       'HOST': 'localhost', 
        'PORT': '3306', 
        'OPTIONS': { 
            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'" 
