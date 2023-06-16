@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'biblioteca.wsgi.application'
 DATABASES = { 
    'default': { 
        'ENGINE': 'django.db.backends.mysql', 
-       'NAME': 'dbbiblioteca', 
+       'NAME': BASE_DIR /'dados.sql', 
        'USER': 'root', 
        'PASSWORD': 'root', 
        'HOST': 'localhost', 
